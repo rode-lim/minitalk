@@ -1,0 +1,21 @@
+I need to make the comunication between a client and a server.
+
+THE SERVER NEEDS TO START FIRST and when started it must print a PID
+
+The client will take 2 paramters:
+
+ - The pid
+ - The string to send
+
+The client will send the string to the server and when the server recieves it it will print it.
+
+1 second to display 100 characters is way to much.
+So make it quick
+
+The server needs to be able to take strings from multiple servers without the need to restart
+
+The communication between the server and client can only be done using UNIX signals
+
+I can only send this 2 signals:
+SIGUSR1
+SIGUSR2
